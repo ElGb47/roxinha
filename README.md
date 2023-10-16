@@ -5,7 +5,7 @@
 #### Local
 
 ```lua
-local DarkraiX = loadstring(game:HttpGet("https://github.com/Fe773Vdoa/Hub/raw/main/HubRoxa", true))()
+local DarkraiX = loadstring(game:HttpGet("", true))()
 ```
 
 ---
