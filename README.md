@@ -2,7 +2,7 @@
 
 ---
 
-#### Local
+## Local
 
 ```lua
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/ElGb47/roxinha/main/Roxinha", true))()
@@ -10,7 +10,7 @@ local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/ElGb
 
 ---
 
-#### Window
+## Window
 
 ```lua
 local Library = DarkraiX:Window("Nome","Nome Do Jogo","Logo",Enum.KeyCode.RightControl);
@@ -27,7 +27,7 @@ Logo ~ A Logo Que Vai Aparece No Script Caso Você Tenha Uma Logo
 
 ---
 
-#### Tabs
+## Tabs
 
 ```lua
 Tab1 = Library:Tab("Nome")
@@ -42,7 +42,7 @@ Nome ~ O Nome Da Tab Que Você Quer
 
 ---
 
-#### Botões
+## Botões
 
 ```lua
 Tab1:Button("Nome",function()
@@ -61,7 +61,7 @@ print("bruh") ~ O Script Que Vai Executar Ao Clicar No Botão
 
 ---
 
-#### Toggle
+## Toggle
 
 ```lua
 Tab1:Toggle("Nome",false,function(value)
