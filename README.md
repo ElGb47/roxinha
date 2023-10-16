@@ -5,7 +5,7 @@
 #### Local
 
 ```lua
-local DarkraiX = loadstring(game:HttpGet("", true))()
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/ElGb47/roxinha/main/Roxinha", true))()
 ```
 
 ---
@@ -55,6 +55,25 @@ Tab1 ~ A Indentificação Em Que O Botão Vai Fica Na Tab
 Nome ~ O Nome Que Vai Aparece No Botão
 
 print("bruh") ~ O Script Que Vai Executar Ao Clicar No Botão
+);
+]]
+```
+
+---
+
+#### Toggle
+
+```lua
+Tab1:Toggle("Nome",false,function(value)
+print(bruh)
+    end)
+
+--[[
+Tab1 ~ A Indentificação Que O Toggle Vai Fica Na Tab
+
+Nome ~ O Nome Que Vai Aparece No Toggle
+
+print(bruh) ~ O Script Que Vai Executa Ao Ativar O Toggle( Se Voce Desativa O Toggle Ele Desativa O Script Também )
 );
 ]]
 ```
